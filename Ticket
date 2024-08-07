@@ -1,0 +1,30 @@
+package prueba.pkg2_progra2;
+
+/**
+ *
+ * @author herre
+ */
+public class Ticket {
+    private String name;
+    private double totalPaid;
+
+    // Constructor
+    public Ticket(String name, double totalPaid) {
+        this.name = name;
+        this.totalPaid = totalPaid;
+    }
+
+    // Métodos get
+    public String getName() {
+        return name;
+    }
+
+    public double getTotalPaid() {
+        return totalPaid;
+    }
+
+    // Método print
+    public void print() {
+        System.out.println("Nombre: " + name + ", Total pagado: $" + totalPaid);
+    }
+}
